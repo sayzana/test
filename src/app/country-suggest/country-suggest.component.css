@@ -1,0 +1,52 @@
+.search-result li {
+  padding: 7px;
+  background-color: white;
+  list-style-type: none;
+}
+
+.search-result li:hover {
+  background-color: #a0a6b830;
+}
+
+.search-result li a {
+  color: #888;
+  display: block;
+  text-decoration: none;
+}
+
+.search-result li a:hover {
+  color: white;
+}
+
+.search-result li a:active {
+  color: white;
+}
+
+#search-box {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #a0a6b8;
+  color: #a0a6b8;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+
+#search-box.border-dotted {
+  border-bottom-style: dotted;
+}
+
+ul.search-result {
+  max-height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-top: 0;
+  padding-left: 0;
+  width: 210px;
+  border: 1px solid #a0a6b8;
+  border-top-style: dotted;
+  border-radius: 0 0 3px 3px;
+}
+:host ::ng-deep span.highlight-text {
+  font-weight: bold;
+}
